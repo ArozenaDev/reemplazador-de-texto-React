@@ -7,8 +7,9 @@ function App() {
   const [replacement, setReplacement] = useState('');
 
   const change = () => {
-    if(input.includes(word)) {
-      setInput(input.replaceAll(word, replacement));
+    const lowerCaseInput = input.toLowerCase();
+    if(lowerCaseInput.includes(word.toLowerCase())) {
+      setInput(lowerCaseInput.replaceAll(word.toLowerCase(), replacement));
     }
   }
 
