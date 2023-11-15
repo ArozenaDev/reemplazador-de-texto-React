@@ -1,9 +1,18 @@
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: xx-large;
+}
+
+body {
+  background-image: url(/src/assets/books.jpg);
+}
+
 h1 {
   color: rgba(226, 133, 100, 0.945);
   text-decoration: overline underline;
   text-decoration-color: rgb(240, 182, 106);
   margin-bottom: 30px;
-  margin-left: 200px;
+  margin-left: 80px;
 }
 
 form {
@@ -11,7 +20,12 @@ form {
   margin-left: 120px;
 }
 
+form textarea {
+  font-family: 'PT Sans', sans-serif;
+}
+
 #word, #replacement {
+  font-family: 'PT Sans', sans-serif;
   width: 200px;
   margin-right: 10px; 
   margin-top: 20px; 
