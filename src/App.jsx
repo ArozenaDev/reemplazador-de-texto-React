@@ -10,6 +10,8 @@ function App() {
     const lowerCaseInput = input.toLowerCase();
     if(lowerCaseInput.includes(word.toLowerCase())) {
       setInput(lowerCaseInput.replaceAll(word.toLowerCase(), replacement));
+    } else {
+      setInput("El texto no incluye esa palabra");
     }
   }
 
